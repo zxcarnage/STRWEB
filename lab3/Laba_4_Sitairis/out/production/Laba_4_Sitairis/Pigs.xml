@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<farm>
+    <name>Pigi-farm</name>
+    <corral>
+        <corral floor="1" room="1">
+            <pigs>
+                <pig name="Petya" type="Big pig" image="https://images.techinsider.ru/upload/img_cache/d4d/d4d287dfa120da7e62a77e3051572811_ce_800x426x0x79_cropped_666x444.jpeg" />
+                <pig name="Vovka" type="Small pig" image="https://cdn.botanichka.ru/wp-content/uploads/2023/02/minipigi-kak-soderzhat-karlikovuyu-svinku-4.jpg" />
+                <pig name="Nikita" type="Small Big" image="https://krasivosti.pro/uploads/posts/2022-09/1663056393_5-krasivosti-pro-p-ochen-zhirnaya-svinya-oboi-10.jpg" />
+            </pigs>
+        </corral>
+        <corral floor="1" room="2">
+            <pigs>
+                <pig name="Nastya" type="Nice pig" image="https://i.pinimg.com/736x/66/09/3a/66093aaca1fb6983cf267b00c3815aaa.jpg" />
+                <pig name="Danya" type="Nice pig" image="https://krasivosti.pro/uploads/posts/2021-09/1632786311_45-krasivosti-pro-p-svin-pauk-zhivotnie-krasivo-foto-56.jpg" />
+                <pig name="Misha" type="Small pig" image="https://cdnstatic.rg.ru/uploads/images/216/26/30/pig1000.jpg" />
+            </pigs>
+        </corral>
+    </corral>
+</farm>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<energySector>
+    <sectorName>Энергетика</sectorName>
+    <description>Область, связанная с производством и распределением энергии.</description>
+    <subSectors>
+        <subSector>
+            <subName>Электроэнергетика</subName>
+            <description>Область, занимающаяся производством и распределением электроэнергии.</description>
+            <types>
+                <type>
+                    <typeName>Термальная энергетика</typeName>
+                    <description>Электроэнергетика, основанная на использовании тепловой энергии.</description>
+                    <powerPlants>
+                        <powerPlant id="1" name="ТЭС-1" capacity="1000"/>
+                        <powerPlant id="2" name="ТЭС-2" capacity="2000"/>
+                        <powerPlant id="3" name="ТЭС-3" capacity="1500"/>
+                    </powerPlants>
+                </type>
+                <type>
+                    <typeName>Гидроэнергетика</typeName>
+                    <description>Электроэнергетика, основанная на использовании энергии воды.</description>
+                    <powerPlants>
+                        <powerPlant id="4" name="ГЭС-1" capacity="3000"/>
+                        <powerPlant id="5" name="ГЭС-2" capacity="2500"/>
+                    </powerPlants>
+                </type>
+                <type>
+                    <typeName>Атомная энергетика</typeName>
+                    <description>Электроэнергетика, основанная на использовании ядерной энергии.</description>
+                    <powerPlants>
+                        <powerPlant id="6" name="АЭС-1" capacity="4000"/>
+                        <powerPlant id="7" name="АЭС-2" capacity="3500"/>
+                    </powerPlants>
+                </type>
+                <type>
+                    <typeName>Ветряная энергетика</typeName>
+                    <description>Электроэнергетика, основанная на использовании энергии ветра.</description>
+                    <powerPlants>
+                        <powerPlant id="8" name="ВЭС-1" capacity="500"/>
+                        <powerPlant id="9" name="ВЭС-2" capacity="750"/>
+                    </powerPlants>
+                </type>
+                <type>
+                    <typeName>Солнечная энергетика</typeName>
+                    <description>Электроэнергетика, основанная на использовании солнечной энергии.</description>
+                    <powerPlants>
+                        <powerPlant id="10" name="СЭС-1" capacity="200"/>
+                        <powerPlant id="11" name="СЭС-2" capacity="300"/>
+                    </powerPlants>
+                </type>
+            </types>
+        </subSector>
+        <subSector>
+            <subName>Нефтегазовая промышленность</subName>
+            <description>Область, занимающаяся добычей и переработкой нефти и газа.</description>
+            <types>
+                <type>
+                    <typeName>Добыча нефти</typeName>
+                    <description>Процесс извлечения нефти из месторождений.</description>
+                    <fields>
+                        <field id="1" name="Месторождение-1" reserves="1000000"/>
+                        <field id="2" name="Месторождение-2" reserves="2000000"/>
+                    </fields>
+                </type>
+                <type>
+                    <typeName>Добыча газа</typeName>
+                    <description>Процесс извлечения природного газа из месторождений.</description>
+                    <fields>
+                        <field id="3" name="Месторождение-3" reserves="1500000"/>
+                    </fields>
+                </type>
+            </types>
+        </subSector>
+    </subSectors>
+</energySector>
